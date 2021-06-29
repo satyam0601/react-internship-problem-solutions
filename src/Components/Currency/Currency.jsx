@@ -149,7 +149,12 @@ function Currency() {
           </select>
         </div>
 
-        <input type="submit" value="convert" id="submitButton" />
+        <input
+          style={{ cursor: "pointer" }}
+          type="submit"
+          value="convert"
+          id="submitButton"
+        />
       </form>
       <div className="page-nav">
         <Link to="/data">

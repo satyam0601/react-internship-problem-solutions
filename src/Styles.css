@@ -17,6 +17,10 @@
   margin-top: 10px;
 }
 
+.page-nav button {
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: black;
