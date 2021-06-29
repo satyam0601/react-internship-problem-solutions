@@ -1,0 +1,36 @@
+.page-container {
+  position: absolute;
+  top: 12vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-nav {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  z-index: 9999;
+}
